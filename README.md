@@ -4,6 +4,8 @@
 
 PrivacyLens Fiverr is a Chrome extension designed to enhance your privacy while using Fiverr. As you know fiverr doesn't have an inbuilt balance hider. Which could be pretty annoying when you don't want everyone to see your earning, client information or chat. This extension will help you hide that information with just a click. 
 
+Now available for Firefox as well!
+
 <div align="center">
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="./images/light_mode.png" alt="Light Mode" width="300" style="border-radius: 8px; border: 1px solid #eee;">
@@ -33,19 +35,37 @@ PrivacyLens Fiverr is a Chrome extension designed to enhance your privacy while 
 
 ## Installation
 
-### From Chrome Web Store
+### Chrome
+
+#### From Chrome Web Store
 
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore/) (Coming soon)
 2. Search for "PrivacyLens Fiverr"
 3. Click "Add to Chrome"
 
-### Manual Installation (Developer Mode - Prefered for now)
+#### Manual Installation (Developer Mode - Prefered for now)
 
 1. Download or clone this repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" in the top-right corner
-4. Click "Load unpacked" and select the extension directory
+4. Click "Load unpacked" and select the `extension` directory
 5. The extension should now appear in your browser toolbar
+
+### Firefox
+
+#### From Firefox Add-ons Store
+
+1. Visit the [Firefox Add-ons Store](https://addons.mozilla.org/) (Coming soon)
+2. Search for "PrivacyLens Fiverr"
+3. Click "Add to Firefox"
+
+#### Manual Installation (Temporary)
+
+1. Download or clone this repository
+2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
+3. Click "Load Temporary Add-on..."
+4. Select any file in the `fiverr-hide-firefox` directory (like manifest.json)
+5. The addon should now appear in your browser toolbar
 
 ## How to Use
 
